@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+
+
+    tools:context="com.dogeprince.dogego.MainActivity">
+
+    <Button
+        android:id="@+id/bt2"
+        android:text="白"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt1"
+        android:layout_alignBottom="@+id/bt1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:text="空"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_alignBaseline="@+id/bt2"
+        android:layout_alignBottom="@+id/bt2"
+        android:layout_toRightOf="@+id/bt2"
+        android:layout_toEndOf="@+id/bt2" />
+
+    <com.dogeprince.dogego.GoPanel
+        android:id="@+id/id_dogego"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:text="黑"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/bt2"
+        android:layout_toStartOf="@+id/bt2" />
+
+
+</RelativeLayout>

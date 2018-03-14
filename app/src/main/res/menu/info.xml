@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="保存进度"
+        android:id="@+id/item07">
+    </item>
+    <item
+        android:title="读取进度"
+        android:id="@+id/item08">
+    </item>
+    <item
+        android:title="撤销一步"
+        android:id="@+id/item03">
+    </item>
+    <item
+        android:title="@string/menu_restart"
+        android:id="@+id/item01">
+    </item>
+    <item
+        android:title="开启自由落子"
+        android:id="@+id/item05">
+    </item>
+    <item
+        android:title="显示落子顺序"
+        android:id="@+id/item02">
+    </item>
+    <item
+        android:title="关于"
+        android:id="@+id/item04">
+    </item>
+    <item
+        android:title="奥♂义开"
+        android:id="@+id/item06"
+        android:visible="false">
+    </item>
+
+
+</menu>
